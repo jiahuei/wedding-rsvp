@@ -217,10 +217,8 @@ $(document).ready(function () {
         buttonLabel: 'Add 接新娘 Ceremony to Calendar'
     });
 
-    $('#add-to-cal').append(dinnerCalendar);
-    $('#add-to-cal').append(ceremonyCalendar);
-    // $('#add-to-cal-0').innerHTML = $('#add-to-cal-0').innerHTML.replace("Add to Calendar", "Add Wedding Dinnere to Calendar");
-    // $('#add-to-cal-1').html(dinnerCalendar);
+    $('#add-to-cal-0').html(dinnerCalendar);
+    $('#add-to-cal-1').html(ceremonyCalendar);
 
 
     /********************** RSVP **********************/
