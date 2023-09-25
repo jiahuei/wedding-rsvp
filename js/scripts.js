@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    /***************** Our Photos ******************/
+    $(function(){
+        $("#our-pics-placeholder").load("photos.html"); 
+      });
     /***************** Waypoints ******************/
 
     $('.wp1').waypoint(function () {
